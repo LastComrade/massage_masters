@@ -1,35 +1,33 @@
-const Booking = require("../models/booking");
+const Contact = require("../models/contact");
 
-const booking = {
-  createBooking: async (req, res) => {
+const contact = {
+  createContact: async (req, res) => {
     try {
       const { name, email, phone, message } = req.body;
-      const newBooking = new Booking({
+      const newContact = new Contact({
         name,
-        phone,
         email,
+        phone,
         message,
       });
-      await newBooking.save();
+      await newContact.save();
       return res.status(201).json({
-        message: "Booking created successfully",
-        data: newBooking,
+        message: "Contact created successfully",
+        data: newContact,
       });
     } catch (error) {
-      console.log(error);
       return res.status(500).json({
         message: "Something went wrong",
         error: error.message,
       });
     }
   },
-
-  getBookings: async (req, res) => {
+  getContacts: async (req, res) => {
     try {
-      const bookings = await Booking.find();
+      const contacts = await Contact.find();
       return res.status(200).json({
-        message: "Bookings fetched successfully",
-        data: bookings,
+        message: "Contacts fetched successfully",
+        data: contacts,
       });
     } catch (error) {
       return res.status(500).json({
@@ -40,4 +38,4 @@ const booking = {
   },
 };
 
-module.exports = booking;
+module.exports = contact;

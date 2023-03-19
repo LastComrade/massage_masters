@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const bookingSchema = new mongoose.Schema(
+const enquirySchema = new mongoose.Schema(
   {
     name: {
       type: String,
@@ -20,16 +20,8 @@ const bookingSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-
-    preferredDate: {
-      type: String,
-    },
-
-    preferredTime: {
-      type: String,
-    },
   },
   { timestamps: true }
 );
 
-module.exports = mongoose.model("Booking", bookingSchema);
+module.exports = mongoose.model("Enquiry", enquirySchema);

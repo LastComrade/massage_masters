@@ -1,7 +1,7 @@
-const booking = {
-  createBooking: async (req, res, next) => {
+const enquiry = {
+  createEnquiry: async (req, res, next) => {
     try {
-      const { name, phone, message } = req.body;
+      const { name, email, phone, message } = req.body;
       if (!name || !phone || !message) {
         return res.status(400).json({
           message: "Please fill all the fields",
@@ -17,4 +17,4 @@ const booking = {
   },
 };
 
-module.exports = booking;
+module.exports = enquiry;
