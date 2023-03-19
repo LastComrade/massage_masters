@@ -1,5 +1,5 @@
-const booking = {
-  createBooking: async (req, res, next) => {
+const contact = {
+  createContact: async (req, res, next) => {
     try {
       const { name, phone, message } = req.body;
       if (!name || !phone || !message) {
@@ -17,4 +17,4 @@ const booking = {
   },
 };
 
-module.exports = booking;
+module.exports = contact;
