@@ -19,4 +19,13 @@ const mongooseSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+
+  address: {
+    type: String,
+  },
+
+  prefferedDate: {
+    type: String,
+    required: true,
+  },
 });
