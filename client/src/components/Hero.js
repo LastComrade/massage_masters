@@ -1,0 +1,34 @@
+import bg1 from '../images/bg_1.jpg';
+
+function Hero(props){
+    return (
+        <>
+            <section className="hero-wrap js-fullheight d-flex justify-content-center align-items-center" style={{ backgroundImage: `url(${bg1})`, height: `100vh`,  }} data-stellar-background-ratio="0.5">
+            <div className="overlay"></div>
+            <div className="container">
+                <div className="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+                <div className="col-md-10  text-center">
+                    <div className="icon">
+                        <span className="flaticon-lotus"></span>
+                    </div>
+                    <h1>Spa &amp; Beauty Center</h1>
+                    <div className="row justify-content-center">
+                        <div className="col-md-7 mb-3">
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        </div>
+                    </div>
+                    <p>
+                        <a href="#" className="btn btn-primary p-3 px-5 py-4 mr-md-2">Get in Touch</a>
+                        <a href="#" className="btn btn-outline-primary p-3 px-5 py-4 ml-md-2">Contact</a>
+                    </p>
+                </div>
+                </div>
+            </div>
+            </section>
+            {/* <img src={require('../images/bg_1.jpg')}/> */}
+        </>
+    );
+}
+
+
+export default Hero;
