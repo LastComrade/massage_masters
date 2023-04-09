@@ -1,13 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/Navbar';
-import Services from './components/Services/Services'
+// Packages
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+// Components
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <>
-      <Navbar></Navbar>
-      <Services></Services>
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+        </Routes>
+      </Router>
     </>
   );
 }
