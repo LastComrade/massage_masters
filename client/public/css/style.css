@@ -12120,6 +12120,7 @@ h5,
 
 .hero-wrap.hero-wrap-2 {
   height: 400px;
+  background-image: url("../images/bg_2.jpg");
 }
 
 .hero-wrap.hero-wrap-2 .slider-text {

@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <section
-      className="hero-wrap"
+      className="ftco-section hero-wrap"
       data-stellar-background-ratio="0.5"
     >
       <div className="overlay"></div>

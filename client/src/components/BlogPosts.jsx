@@ -17,7 +17,9 @@ const BlogPosts = () => {
                 href="https://www.google.com/"
                 className="block-20"
                 style={{ backgroundImage: "url('images/image_1.jpg')" }}
-              >0</a>
+              >
+                0
+              </a>
               <div className="text p-4 float-right d-block">
                 <div className="d-flex align-items-center pt-2 mb-4">
                   <div className="one">
@@ -29,7 +31,9 @@ const BlogPosts = () => {
                   </div>
                 </div>
                 <h3 className="heading mt-2">
-                  <a href="https://www.google.com/">Is wellness the new luxury</a>
+                  <a href="https://www.google.com/">
+                    Is wellness the new luxury
+                  </a>
                 </h3>
                 <p>
                   A small river named Duden flows by their place and supplies it
@@ -44,7 +48,9 @@ const BlogPosts = () => {
                 href="https://www.google.com/"
                 className="block-20"
                 style={{ backgroundImage: "url('images/image_2.jpg')" }}
-              >0</a>
+              >
+                0
+              </a>
               <div className="text p-4 float-right d-block">
                 <div className="d-flex align-items-center pt-2 mb-4">
                   <div className="one">
@@ -56,7 +62,9 @@ const BlogPosts = () => {
                   </div>
                 </div>
                 <h3 className="heading mt-2">
-                  <a href="https://www.google.com/">Is wellness the new luxury</a>
+                  <a href="https://www.google.com/">
+                    Is wellness the new luxury
+                  </a>
                 </h3>
                 <p>
                   A small river named Duden flows by their place and supplies it
@@ -71,7 +79,9 @@ const BlogPosts = () => {
                 href="blog-single.html"
                 className="block-20"
                 style={{ backgroundImage: "url('images/image_3.jpg')" }}
-              >0</a>
+              >
+                0
+              </a>
               <div className="text p-4 float-right d-block">
                 <div className="d-flex align-items-center pt-2 mb-4">
                   <div className="one">
@@ -83,7 +93,9 @@ const BlogPosts = () => {
                   </div>
                 </div>
                 <h3 className="heading mt-2">
-                  <a href="https://www.google.com/">Is wellness the new luxury</a>
+                  <a href="https://www.google.com/">
+                    Is wellness the new luxury
+                  </a>
                 </h3>
                 <p>
                   A small river named Duden flows by their place and supplies it

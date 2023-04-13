@@ -13,17 +13,17 @@ const Footer = () => {
                 Vokalia and Consonantia, there live the blind texts.
               </p>
               <ul className="ftco-footer-social list-unstyled float-lft mt-3">
-                <li className="ftco-animate">
+                <li className="ftco-animate-0">
                   <a href="https://www.linkedin.com/in/konark-lohat/">
                     <span className="icon-twitter"></span>
                   </a>
                 </li>
-                <li className="ftco-animate">
+                <li className="ftco-animate-0">
                   <a href="https://www.linkedin.com/in/konark-lohat/">
                     <span className="icon-facebook"></span>
                   </a>
                 </li>
-                <li className="ftco-animate">
+                <li className="ftco-animate-0">
                   <a href="https://www.linkedin.com/in/konark-lohat/">
                     <span className="icon-instagram"></span>
                   </a>

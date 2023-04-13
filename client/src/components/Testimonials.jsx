@@ -12,7 +12,7 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="py-5 ftcoo-section testimony-section">
+    <section className="py-5 my-5 ftcoo-section testimony-section">
       <div className="container">
         <div className="row justify-content-center mb-5 pb-3">
           <div className="col-md-10 heading-section ftcoo-animate text-center">
